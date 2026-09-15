@@ -1,0 +1,21 @@
+title: "소은 Security Blog"
+description: "Security study notes, CTF write-ups, and technical records"
+url: "https://soeun4159.github.io"
+baseurl: ""
+lang: ko
+markdown: kramdown
+permalink: /posts/:title.html
+
+# GitHub Pages/Jekyll defaults
+future: false
+show_drafts: false
+
+# Values automatically applied to files in _posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      category: "블로그/기술문서"
+      badge_class: blog
